@@ -58,21 +58,27 @@
 		//Function to parse incoming data
 		function parse(incoming) {
 			if (incoming[0] == '/touch' && incoming[1] == 3) {
+				sound.play();
 				selected = 3;
 
 			} else if (incoming[0] == '/touch' && incoming[1] == 5) {
+				sound1.play();
 				selected = 5;
 
 			} else if (incoming[0] == '/touch' && incoming[1] == 6) {
+				sound2.play();
 				selected = 6;
 
 			} else if (incoming[0] == '/touch' && incoming[1] == 7) {
+				sound3.play();
 				selected = 7;
 
 			} else if (incoming[0] == '/touch' && incoming[1] == 8) {
+				sound4.play();
 				selected = 8;
 
 			} else if (incoming[0] == '/touch' && incoming[1] == 9) {
+				sound5.play();
 				selected = 9;
 			}
 		}
